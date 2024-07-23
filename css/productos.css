@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Indie;
+    src: url("../fuentes/IndieFlower-Regular.ttf");
+}
+@font-face {
+    font-family: Shadow;
+    src: url("../fuentes/ShadowsIntoLight-Regular.ttf");
+}
+body{
+    background-color: rgb(124, 107, 107);
+}
+#cabecera{
+    border: 12px dashed salmon;
+    background-color: rgb(236, 192, 110);
+    border-radius: 8px;
+}
+#cabecera h1{
+    font-family: Indie;
+    text-align: center;
+    font-size: 5em;
+    color: rgb(82, 56, 56);
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    background-color: sandybrown;
+    color: rgb(63, 58, 58);
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 10px 50px;
+}
+nav a:hover{
+    color: white;
+}
+.product{
+    display: inline-flex;
+    background-color: rgb(252, 184, 125);
+    border: 15px groove salmon;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+.product img{
+    margin: 15px;
+    border-radius: 20px;
+    gap: 150px;
+}
+.text{
+    padding: 20px;
+}
+.text h1{
+    font-family: Indie;
+    font-size: 70px;
+} 
+.text p{
+    font-family: 'Shadows';
+    font-size: 22px;
+}
+.text h2{
+    font-family:'Times New Roman';
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin-top: -70px;
+    padding: 15px 10px;
+}  
+#pie-de-pagina{
+    background-color: rgb(53, 48, 48);
+    color: rgb(214, 156, 84);
+    border-radius: 15px;
+    padding: 40px;
+}
+#pie-de-pagina h2{
+    text-align: center;
+    font-size: 5em;
+}
+#pie-de-pagina p{
+    font-size: 20px;
+}

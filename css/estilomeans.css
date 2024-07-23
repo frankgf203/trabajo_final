@@ -1,0 +1,177 @@
+@font-face {
+    font-family: Indie;
+    src: url(../fuentes/IndieFlower-Regular.ttf);
+}
+body{
+    background-color: black;
+}
+#cabecera{
+    border: 5px dashed orangered;
+    background-color: orange;
+    border-radius: 8px;
+    line-height: 0.5;
+}
+#cabecera h1{
+    font-family: Indie;
+    text-align: center;
+    font-size: 8em;
+}
+#cabecera h2{
+    font-family: Indie;
+    text-align: center;
+    font-style: italic;
+    font-size: 3.5em;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    background-color: sandybrown;
+    color: rgb(63, 58, 58);
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 10px 50px;
+}
+nav a:hover{
+    color: white;
+}
+#slider{
+    width: 1400px;
+    margin: 50px auto 0;
+}
+#slider ul{
+    display: flex;
+    padding: 0;
+    width: 1000px;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+#slider li{
+    font-size: 1.5em;
+    width: 1400px;
+    list-style-type: none;
+    position: relative;
+    color: black;
+}
+.texto{
+    font-family: Indie;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    padding: 0 250px;
+    top: 250px;
+}
+.texto h2{
+    font-size: 85px;
+    margin-bottom: 35px;
+}
+#slider img{
+    width: 1600px;
+  
+}
+@keyframes slide {
+    0% { margin-left: 0; }
+    20% { margin-left: 0; }
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+.image{
+    width: 100%;
+    position: relative;
+    
+}
+.image p{
+    position: absolute;
+    text-align: center;
+}
+.boton{
+    border: 5px dashed salmon;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 25px;
+    line-height: 0.5;
+}
+.boton h2{
+    text-align: left;
+    font-size: 34px;
+    color: rgb(36, 33, 33);
+}
+.boton p{
+    font-weight: bold;
+    color: rgb(68, 53, 53);
+}
+.boton a:hover{
+    color: brown;
+}
+.oferta{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.item{
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.item:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+.item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all .5s;
+}
+
+.item figure{
+    overflow: hidden;
+}
+
+.item:hover img{
+    transform: scale(1.2);
+}
+.info-product{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-product p{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.info-product button{
+    border: none;
+    background: none;
+    background-color: #000;
+    color: #fff;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+#pie-de-pagina{
+    background-color: rgb(53, 48, 48);
+    color: rgb(214, 156, 84);
+    border-radius: 8px;
+    padding: 40px;
+}
+#pie-de-pagina h2{
+    font-size: 5em;
+}
+#pie-de-pagina p{
+    font-size: 20px;
+}
